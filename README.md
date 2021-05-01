@@ -14,6 +14,7 @@ Deze C2-framework gebouwd aan de hand van C# (Agent) en PHP/MYSQL (Server)
 Om de server werkend te krijgen, moet de gebruiker:
 1) Apache installeren & configureren
 2) MYSQL server installeren & configureren
+3) Wijzig de login gegevens van conn.php zodat de webserver met de database kan verbinden
 
 ### Apache server
 1) Installer Apache webserver
@@ -45,3 +46,5 @@ Om de server werkend te krijgen, moet de gebruiker:
 | operatingsystem | varchar(255) | YES  |     | NULL    |                |
 | command         | text         | YES  |     | NULL    |                |
 | commandresult   | longtext     | YES  |     | NULL    |                |
+
+
