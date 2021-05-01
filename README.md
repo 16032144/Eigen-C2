@@ -35,13 +35,12 @@ Om de server werkend te krijgen, moet de gebruiker:
 | password | varchar(255) | YES  |     | NULL    |                |
 
 7) Tabel victims bevat de volgende zes kolommen:
-+-----------------+--------------+------+-----+---------+----------------+
+
 | Field           | Type         | Null | Key | Default | Extra          |
-+-----------------+--------------+------+-----+---------+----------------+
+|-----------------|--------------|------|-----|---------|----------------|
 | id              | int(11)      | NO   | PRI | NULL    | auto_increment |
 | hostname        | varchar(255) | YES  |     | NULL    |                |
 | ipaddress       | varchar(255) | YES  |     | NULL    |                |
 | operatingsystem | varchar(255) | YES  |     | NULL    |                |
 | command         | text         | YES  |     | NULL    |                |
 | commandresult   | longtext     | YES  |     | NULL    |                |
-+-----------------+--------------+------+-----+---------+----------------+
