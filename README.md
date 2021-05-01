@@ -1,16 +1,47 @@
 # Eigen-C2
 
-Deze C2 server is gebouwd in C# en kan aan de hand van visual studio (code) worden gecompileerd.
+Deze C2-framework gebouwd aan de hand van C# (Agent) en PHP/MYSQL (Server)
 
+## C2-Agent
+1) Download de bestanden van de Agent map
+2) Compileer deze aan de hand van Visual Studio Code
+
+### VirusTotal Detection rate:
+![Resulaat van Virustotal](2021-05-01 17_51_41-VirusTotal.png)
+
+## C2-Server
 Om de server werkend te krijgen, moet de gebruiker:
 1) Apache installeren & configureren
 2) MYSQL server installeren & configureren
 
+### Apache server
+1) Installer Apache webserver
+2) Download bestanden uit de Server map.
+3) Kopieer de bestanden naar de rootmap van de webserver.
+4) Start de server.
 
-
-## Apache server
-1) Kopieer alle 
-Alle bestanden die in de Server map staan moeten naar de rootmap van de webserver worden gekopieerd.
-
-## MYSQL database
-1) Creeer een database ControlPanel
+### MYSQL database
+1) Installeer Mysql database 
+2) Start Mysql database.
+3) Login op de database.
+4) Creeër de volgende database: ControlPanel.
+5) Creeër in de database "ControlPanel" twee tabellen: users & victims.
+6) Tabel user bevat de volgende drie kolommen:
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | int(11)      | NO   | PRI | NULL    | auto_increment |
+| username | varchar(255) | YES  |     | NULL    |                |
+| password | varchar(255) | YES  |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+7) Tabel victims bevat de volgende zes kolommen:
++-----------------+--------------+------+-----+---------+----------------+
+| Field           | Type         | Null | Key | Default | Extra          |
++-----------------+--------------+------+-----+---------+----------------+
+| id              | int(11)      | NO   | PRI | NULL    | auto_increment |
+| hostname        | varchar(255) | YES  |     | NULL    |                |
+| ipaddress       | varchar(255) | YES  |     | NULL    |                |
+| operatingsystem | varchar(255) | YES  |     | NULL    |                |
+| command         | text         | YES  |     | NULL    |                |
+| commandresult   | longtext     | YES  |     | NULL    |                |
++-----------------+--------------+------+-----+---------+----------------+
