@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wfYkSI+u6p87zDbGm54+5b/9H9865W8FoSp5ejvBiWpttYzy0HnqZBg31E33ppDnKfx8dfZx1YWZKFYdhw8reg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kali\\Documents\\Afstuderen\\Beun projecten\\testc2\\testc2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kali\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
