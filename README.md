@@ -1,6 +1,6 @@
 # Eigen-C2
 
-Deze C2-framework gebouwd aan de hand van C# (Agent) en PHP/MYSQL (Server)
+Dit C2-framework gebouwd aan de hand van C# (Agent) en PHP/MYSQL (Server)
 
 ## C2-Agent
 1) Download de bestanden van de Agent map
