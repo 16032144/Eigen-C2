@@ -7,7 +7,7 @@ Deze C2-framework gebouwd aan de hand van C# (Agent) en PHP/MYSQL (Server)
 2) Compileer deze aan de hand van Visual Studio Code
 
 ### VirusTotal Detection rate:
-![Resulaat van Virustotal](2021-05-01 17_51_41-VirusTotal.png)
+![Resulaat van Virustotal](/2021-05-01 17_51_41-VirusTotal.png)
 
 ## C2-Server
 Om de server werkend te krijgen, moet de gebruiker:
