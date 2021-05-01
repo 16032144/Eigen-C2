@@ -27,13 +27,13 @@ Om de server werkend te krijgen, moet de gebruiker:
 4) Creeër de volgende database: ControlPanel.
 5) Creeër in de database "ControlPanel" twee tabellen: users & victims.
 6) Tabel user bevat de volgende drie kolommen:
-+----------+--------------+------+-----+---------+----------------+
+
 | Field    | Type         | Null | Key | Default | Extra          |
-+----------+--------------+------+-----+---------+----------------+
+|----------|--------------|------|-----|---------|----------------|
 | id       | int(11)      | NO   | PRI | NULL    | auto_increment |
 | username | varchar(255) | YES  |     | NULL    |                |
 | password | varchar(255) | YES  |     | NULL    |                |
-+----------+--------------+------+-----+---------+----------------+
+
 7) Tabel victims bevat de volgende zes kolommen:
 +-----------------+--------------+------+-----+---------+----------------+
 | Field           | Type         | Null | Key | Default | Extra          |
